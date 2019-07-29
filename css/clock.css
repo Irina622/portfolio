@@ -1,0 +1,79 @@
+﻿.clockWrapper{
+	border: 1px solid transparent;
+	width: 250px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	display: block;
+}
+@media only screen and ( max-width: 400px ) {
+	.clockWrapper{
+		margin-top: 2.25em;
+		width: 220px;
+	}
+}
+@media only screen and ( max-width: 300px ) {
+	.clockWrapper{
+		margin-top: 2.25em;
+		width: 210px;
+	}
+}
+@media only screen and ( max-width: 200px ) {
+	.clockWrapper{
+		margin-top: 2.25em;
+		width: 180px;
+	}
+}
+
+.clockText{
+	font-size: 2em;
+	font-family: Times New Roman;
+	text-decoration: none;
+	font-style: normal;
+	color: red;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid transparent;
+	display: inline;
+}
+@media only screen and ( max-width: 200px ) {
+	.clockText{
+	        font-size: 1.40em;
+		margin-left: auto;
+		margin-top: 2.25em;
+		width: 250px;
+	}
+}
+
+.clockTextDiv{
+	border: 1px solid transparent;
+	width: 50px;
+	display: inline;
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}
+.clockSep{
+	font-size: 2em;
+	font-family: Times New Roman;
+	text-decoration: none;
+	font-style: normal;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid transparent;
+	display: inline;
+	max-width: 50px;
+	width: 1%;
+}
+.clockSepDiv{
+	border: 1px solid transparent;
+	max-width: 50px;
+	display: inline;
+	-moz-box-sizing: inherit;
+	-webkit-box-sizing: inherit;
+	box-sizing: inherit;
+}

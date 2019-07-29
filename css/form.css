@@ -1,0 +1,85 @@
+﻿* {/*глобальные настройки - настройки для всех элементов по-умолчанию*/
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.order_wrapper{
+	border: 0px solid red;
+	width: 40%;
+	min-width: 190px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 3em;
+	display: block;
+}
+@media only screen and ( max-width: 1099px ) {
+	.order_wrapper{
+		width: 70%;
+	}
+}
+@media only screen and ( max-width: 699px ) {
+	.order_wrapper{
+		width: 85%;
+	}
+}
+@media only screen and ( max-width: 399px ) {
+	.order_wrapper{
+		width: 95%;
+	}
+}
+.inp{
+	height: 2em;
+	line-height: 2em;
+}
+.txt{
+	height: 15em;
+	line-height: 1em;
+	resize: none; /* Запрещаем изменять размер */
+}
+.order{
+	border: 1px solid #e7e7e7;
+	width: 90%;
+	min-width: 180px;
+	color: #737373;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	font-size: .9em;
+	font-family: Playfair Display SC Bold;
+	font-style: normal;
+}
+.caption{
+	border: 0px solid green;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	display: block;
+	border-radius: 15px;
+	line-height: 1.6em;
+	font-size: 1em;
+	font-family: Playfair Display SC Bold;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: bold;
+	text-align: center;
+	color: #a8132a;
+	transition:	color 0.5s ease-in-out 0.5s,
+			background-color .5s ease-in-out 0.5s;
+}
+.caption:hover{
+	background-color: rgba(168, 19, 42, .95);/*бардовый: #a8132a=rgb(168, 19, 42)*/
+	color: #fff;
+	box-shadow: 0 0 3px 3px #a8132a;
+}
+.wrapper_form{
+	border: 0px solid green;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	display: block;
+}
