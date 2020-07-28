@@ -1,0 +1,27 @@
+.socialIcon{
+     	font-size: 80%; 
+	font-family: PlayfairDisplaySc Bold; 
+        text-decoration: none;
+	font-style: normal;
+        color: #8a8a8a;
+	
+	width: 40px;
+	height: 40px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	margin-top: 0px;
+	margin-left: .75em;
+	display: inline-block;
+      }
+.socialIcon:hover {
+        background: #a8132a;
+	box-shadow: 0 0 3px 3px #333333;
+}
+@media only screen and ( max-width: 650px ) {
+	.socialIcon{
+		width: 32px;
+		height: 32px;
+		margin-left: .5em;
+	}
+}

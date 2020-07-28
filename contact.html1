@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Контакты</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+	<link rel="stylesheet" href="./css/2.css">
+	<link rel="stylesheet" href="./css/3.css">
+	<link rel="stylesheet" href="./css/simplehorzmenu.css">
+	<link rel="stylesheet" href="./css/sel_language.css">
+	<link rel="stylesheet" href="./css/fonts.css">
+	<link rel="stylesheet" href="./css/button.css">
+	<link rel="stylesheet" href="./css/socialIcon.css">
+	<script src="js/selectlang.js"></script>
+</head>
+<body>
+
+<div class="wrapper_first"><!--wrapper_first-->
+	<div class="wrapper_second">	<!--wrapper_second-->
+
+<div class="simplehorzmenu">
+	<div class="mobilemenu">
+		<a href="#openMenu"><img alt="Menu mobile" src="./img/menu_mobile2.png"></a>
+		<div id="openMenu" class="modalMenu">
+			<div>
+				<a href="#close" title="Закрыть" class="close">X</a>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">Обо мне</a></li>
+					<li><a href="#">Портфолио </a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</div>	<!--modalMenu-->
+	</div>	<!--mobilemenu-->
+	<div class="horzmenu">
+		<ul>
+			<li><a href="index.html">Главная</a></li>
+			<li><a href="about.html">Обо мне</a></li>
+			<li><a href="#">Портфолио </a></li>
+			<li><a href="#">Контакты</a></li>
+		</ul>
+	</div>	<!--horzmenu-->
+</div>	<!--simplehorzmenu-->
+</div>	<!--wrapper_second-->
+
+<div class="city_div">
+	<select class="city" id="property_city" name="property_city" onChange="selectLang(this.value);">
+		<option class="bckgrndClr" selected>Language</option>
+		<option class="bckgrndClr" value="en">&nbsp;&nbsp;"&nbsp;EN (eng)"</option> 
+		<option class="bckgrndClr" value="ru">&nbsp;&nbsp;"&nbsp;RU (рус)"</option>
+		<option class="bckgrndClr" value="ua">&nbsp;&nbsp;"&nbsp;UA (укр)"</option>
+	</select>
+</div><!--wrapper_first-->
+    
+
+<div class="lorem_div">
+<a class="aDecorNone" href="#"><span class="lorem">Вы всегда можете задать интересующие Вас вопросы или предложить сотрудничество по приведенным ниже контактным данным.<br><span class="elit">На связи в будничные дни с 8-00 до 20-00 по Киевскому времени.</span></span></a>
+
+</div>
+
+
+<div class="wrapper_map">
+
+<div class="map_div">
+	<iframe class="border0" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41048.20527016161!2d36.26360657392067!3d49.98299408566445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1560592584737!5m2!1sru!2sua" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+</div>
+
+</div>
+
+<div class="div_address">
+<a class="aDecorNone" href="#">
+	<span class="address">Kharkov<br>
+		Skype-live:iriskashemi<br>
+		Email: iriskashemi@gmail.com<br>
+		<img alt="" src="./img/map1.png">
+	</span>
+</a>
+</div>
+
+<div class="div_send">
+	<span class="caption_send">Обратная связь</span>
+	<form method="get" action="#">
+		<input class="lime" type="text" id="name" name="name" placeholder="Name">
+		<input class="lime" type="text" id="email" name="email" placeholder="Email">
+		<input class="lime" type="text" id="subject" name="subject" placeholder="subject">
+		<input class="lime" type="text" id="content" name="content" placeholder="comment">
+		<input class="feat" type="submit" value="Отправить">
+	</form>
+</div>
+
+
+
+<div class="footer">
+
+<input class="feat160C" type="button" value="Заказать верстку">
+
+<div class="divSocialIcons">	<!--divSocialIcons-->
+	<a href="skype:live:iriskashemi?chat"><img class="socialIcon" alt="" src="./img/skype.png"></a>
+		<a href="https://github.com/Irina622" target="_blank"><img class="socialIcon" alt="" src="./img/github.png"></a>
+	<img class="socialIcon" title="none" alt="twitter" src="./img/twitter.png">
+	<img class="socialIcon"title="none" alt="linkedin" src="./img/linkedin.png">
+</div>	<!--divSocialIcons-->
+
+</div>	<!--footer-->
+
+</div>
+ </body>
+</html>
+
+
