@@ -1,0 +1,92 @@
+.feat{
+	font-size: 100%; 
+	font-family: Times New Roman; 
+	font-style: normal;
+        color: #ffffff;
+        text-align: center;
+        line-height: 2em;
+
+	border: 1px solid #a8132a;
+        -webkit-border-radius: .75em;
+        -moz-border-radius: .75em;
+        border-radius: .75em; 
+	margin-top: 1em;
+	margin-left: auto;
+	margin-right: 2em;
+        height: 2em;
+	padding-left: 1.1em;
+	padding-right: 1.1em;
+        background: #a8132a;
+
+        cursor: pointer;
+        display: block;
+}
+.feat:hover{
+	background: radial-gradient(circle, #aca8a8, #a8132a);
+}
+@media only screen and ( max-width: 600px ) {
+	.feat{
+		font-size: 80%;
+	        line-height: 1.6em;
+	        -webkit-border-radius: .6em;
+	        -moz-border-radius: .6em;
+        	border-radius: .6em; 
+		margin-top: .8em;
+		margin-right: auto;
+        	height: 1.6em;
+		padding-left: .88em;
+		padding-right: .88em;
+	}
+}
+.feat160C{
+	font-size: 130%; 
+	font-family: Times New Roman; 
+	font-style: normal;
+        color: #ffffff;
+        text-align: center;
+        line-height: 2.1em;
+
+	border: 1px solid #a8132a;
+        -webkit-border-radius: 0.75em;
+        -moz-border-radius: 0.75em;
+        border-radius: 0.75em; 
+	margin-top: 1.6em;
+	margin-left: auto;
+	margin-right: auto;
+        height: 2.1em;
+	padding-left: 1.1em;
+	padding-right: 1.1em;
+        background: #a8132a;
+
+        cursor: pointer;
+        display: block;
+}
+.feat160C:hover{
+	background: radial-gradient(circle, #aca8a8, #a8132a);
+}
+@media only screen and ( max-width: 600px ) {
+	.feat160C{
+		font-size: 110%;
+	        line-height: 1.68em;
+	        -webkit-border-radius: 0.6em;
+        	-moz-border-radius: 0.6em;
+	        border-radius: 0.6em; 
+		margin-top: 1.28em;
+	        height: 1.68em;
+		padding-left: 0.9em;
+		padding-right: 0.9em;
+	}
+}
+@media only screen and ( max-width: 200px ) {
+	.feat160C{
+		font-size: 90%;
+	        line-height: 1.46em;
+	        -webkit-border-radius: 0.52em;
+        	-moz-border-radius: 0.52em;
+	        border-radius: 0.52em; 
+		margin-top: 1.11em;
+	        height: 1.46em;
+		padding-left: 0.76em;
+		padding-right: 0.76em;
+	}
+}

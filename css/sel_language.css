@@ -1,0 +1,69 @@
+.city_div{
+	border: 0px solid #2c70b8;
+	width: 7em;
+	height: 3em;
+	float: right;
+	margin-left: auto;
+	margin-right: 5em;
+	margin-top: -4em;
+	display: block;
+}
+@media only screen and ( max-width: 900px ) {
+	.city_div{
+		margin-right: auto;
+	}
+}
+@media only screen and ( max-width: 800px ) {
+	.city_div{
+		width: 6.05em;
+		height: 2.1em;
+		margin-right: auto;
+		margin-left: .5em;
+		margin-top: -3.6em;
+	}
+}
+@media only screen and ( max-width: 300px ) {
+	.city_div{
+		width: 4.5em;
+		height: 1.6em;
+		margin-right: 0;
+		margin-left: auto;
+		margin-top: -3.6em;
+	}
+}
+.city{
+	font-size: 85%; 
+	font-family: Times New Roman; 
+	font-style: normal;
+        color: #333333;
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 3em;
+        border: 0px solid blue;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+        background: linear-gradient(to top, #dfdbdb, #898989);
+	appearance: none;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+@media only screen and ( max-width: 800px ) {
+	.city{
+		font-size: 75%; 
+		padding-left: .88em;
+		padding-right: .88em;
+		height: 2.64em;
+		border-top-left-radius: 8.8px;
+		border-top-right-radius: 8.8px;
+ 	}
+}
+@media only screen and ( max-width: 300px ) {
+	.city{
+		font-size: 67%; 
+		padding-left: .25em;
+		padding-right: .25em;
+		height: 2.35em;
+		border-top-left-radius: 7.8px;
+		border-top-right-radius: 7.8px;
+ 	}
+}
